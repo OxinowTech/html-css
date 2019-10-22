@@ -1,0 +1,14 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+tbody tr .table_data {
+    max-width: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+tbody tr .table_data:hover {
+    width:50%;
+    color:blue;
+}
