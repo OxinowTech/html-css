@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+.header {
+    width:100%;
+    float:left;
+}
+.headersection {
+    margin: 100px;
+}
+.logo {
+    float:left;
+}
+.navbar {
+    float:right;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li {
+    float: left;
+    margin-left: 50px;
+    position: relative;;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.software {
+    visibility: hidden;
+}
+.navbar li:hover > .software {
+    visibility: visible;
+}
